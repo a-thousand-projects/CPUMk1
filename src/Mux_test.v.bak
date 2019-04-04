@@ -1,0 +1,13 @@
+module mux_test()
+reg A,B,SEL,OUT;
+
+Mux uut(
+  .a (A),
+  .b (B), 
+  .sel (SEL),
+  .out (OUT)
+  );
+
+
+
+endmodule
